@@ -8,12 +8,12 @@
 
 ### 💼 Proyectos destacados
 
-- 📱 **Carta digital responsive para bar**  
+- 📱 **Web y Carta digital para bar - restaurante**  
   Desarrollo web completo con HTML y CSS, orientado a móviles y publicado con GitHub Pages.  
   👉[Web Final](https://boulevard-restaurante.com/index/) | [Ver proyecto](https://frxnchu.github.io/boulevard-web) | [Repositorio](https://github.com/frxnchu/boulevard-web)
 
 - 🎉 **Plantilla web para promotora de discotecas**  
-  Diseño enfocado al público joven y eventos nocturnos, con estructura reutilizable para nuevos clientes.  
+  Diseño enfocado al público joven y eventos, con estructura reutilizable para nuevos clientes. Publicado con GitHub Pages  
   👉 [Ver proyecto](https://frxnchu.github.io/discotecas-template) | [Repositorio](https://github.com/frxnchu/discotecas-template)
 
 - 🌐 **Portfolio personal**  
