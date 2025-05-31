@@ -18,7 +18,7 @@
 
 - 🌐 **Portfolio personal**  
   Página donde centralizo mis trabajos, tecnologías favoritas y contacto.  
-  👉 [Ver portfolio](https://frxnchu.github.io/) | [Repositorio](https://github.com/frxnchu/frxnchu.github.io)
+  👉 [Ver portfolio](https://frxnchu.github.io/frxnchu/) | [Repositorio](https://github.com/frxnchu/frxnchu)
 
 ---
 
