@@ -14,7 +14,7 @@
 
 - 🎉 **Plantilla web para promotora de discotecas**  
   Diseño enfocado al público joven y eventos nocturnos, con estructura reutilizable para nuevos clientes.  
-  👉 [Ver proyecto](https://frxnchu.github.io/discoteca-template) | [Repositorio](https://github.com/frxnchu/discoteca-template)
+  👉 [Ver proyecto](https://frxnchu.github.io/discotecas-template) | [Repositorio](https://github.com/frxnchu/discotecas-template)
 
 - 🌐 **Portfolio personal**  
   Página donde centralizo mis trabajos, tecnologías favoritas y contacto.  
