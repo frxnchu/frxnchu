@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Franchu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f6fa;
+            color: #111;
+            line-height: 1.6;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            }
+            p{
+                text-align: center;
+            }
+            h1, h2 {
+            color: #111;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            }
+            section {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            max-width: 900px;
+            width: 100%;
+            }
+            .projects, .technologies {
+            display: grid;
+            gap: 1.5rem;
+            }
+            .projects {
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            }
+            .card {
+            border: 1px solid #eee;
+            border-radius: 12px;
+            padding: 1rem;
+            background: #fff;
+            transition: box-shadow 0.3s;
+            }
+            .card:hover {
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+            }
+            .card a {
+            color: #2a4be0;
+            text-decoration: none;
+            font-weight: 600;
+            }
+            .tech-icons {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+            justify-content: center;
+            }
+            .tech-icons div {
+            text-align: center;
+            }
+            .tech-icons img {
+            width: 48px;
+            height: 48px;
+            margin-bottom: 0.25rem;
+            }
+            .contact {
+            text-align: center;
+            }
+            .contact a {
+            display: inline-block;
+            background: #2a4be0;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            text-decoration: none;
+            margin-bottom: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+
+    <section>
+        <h1>¡Hola! Soy Franchu</h1>
+        <p>Estudiante de Desarrollo de Aplicaciones Web</p>
+        <p>Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real</p>
+        <h2>Estudios</h2>
+        <ul>
+            <li>Estudiante de Desarrollo de Aplicaciones Web (DAW)</li>
+            <li>Actualmente cursando el bootcamp Full Stack Open de la Universidad de Helsinki</li>
+        </ul>
+        <h2>Experiencia</h2>
+        <ul>
+            <li>Junior Consultant -> Wise Security Global</li>
+            <li>Becario de Sistemas -> Inetum</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Proyectos</h2>
+        <div class="projects">
+        <div class="card">
+            <h3>Carta digital para bar</h3>
+            <p>Página moderna orientada a móviles (mobile-first).</p>
+            <a href="https://frxnchu.github.io/bar-boulevard" target="_blank">Ver en GitHub Pages</a>
+        </div>
+        <div class="card">
+            <h3>Plantilla para promotora de discotecas</h3>
+            <p>Estructura funcional para eventos y público joven.</p>
+            <a href="https://frxnchu.github.io/discoteca-template" target="_blank">Ver en GitHub Pages</a>
+        </div>
+        <div class="card">
+            <h3>Web en WordPress para cliente real</h3>
+            <p>Sitio de producción para el cliente.</p>
+            <a href="#" target="_blank">Ver en producción</a>
+        </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Tecnologías</h2>
+        <div class="tech-icons">
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><br>HTML</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><br>CSS</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><br>JavaScript</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode"><br>VS Code</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ"><br>IntelliJ</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCharm"><br>PyCharm</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" alt="DataGrip"><br>DataGrip</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><br>MySQL</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><br>Git</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><br>GitHub</div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contacto</h2>
+        <a href="https://www.linkedin.com/in/francisco-molina-aranda/" target="_blank">LinkedIn</a>
+        <h2>Email</h2>
+        <p>franchucode@gmail.com</p>
+    </section>
+
+    </body>
+</html>
