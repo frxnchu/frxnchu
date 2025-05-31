@@ -9,9 +9,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        .inicio{
+            text-align: center;
+            background-color: rgb(172, 216, 255);
+        }
+        .inicio h1{
+            color: #213e4b;
+        }
+        .inicio h2{
+            color: #213e4b;
+        }
+
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f5f6fa;
+            background-color: aliceblue;
             color: #111;
             line-height: 1.6;
             padding: 2rem;
@@ -28,7 +40,7 @@
             text-align: center;
             }
             section {
-            background: white;
+            background: rgb(172, 216, 255);
             border-radius: 16px;
             padding: 2rem;
             margin-bottom: 2rem;
@@ -77,32 +89,37 @@
             text-align: center;
             }
             .contact a {
-            display: inline-block;
             background: #2a4be0;
-            color: white;
+            color: rgb(255, 255, 255);
             padding: 0.5rem 1rem;
-            border-radius: 8px;
+            border-radius: 10px;
             text-decoration: none;
-            margin-bottom: 1rem;
             }
         </style>
     </head>
     <body>
 
-    <section>
+    <section class="inicio">
         <h1>¡Hola! Soy Franchu</h1>
         <p>Estudiante de Desarrollo de Aplicaciones Web</p>
         <p>Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real</p>
+        <br>
+
         <h2>Estudios</h2>
-        <ul>
-            <li>Estudiante de Desarrollo de Aplicaciones Web (DAW)</li>
-            <li>Actualmente cursando el bootcamp Full Stack Open de la Universidad de Helsinki</li>
-        </ul>
+        <p>Estudiante de Desarrollo de Aplicaciones Web (DAW)</p>
+        <p>Actualmente cursando el bootcamp Full Stack Open de la Universidad de Helsinki</p>
+        <br>
+
         <h2>Experiencia</h2>
-        <ul>
-            <li>Junior Consultant -> Wise Security Global</li>
-            <li>Becario de Sistemas -> Inetum</li>
-        </ul>
+        <p>Junior Consultant -> Wise Security Global</p>
+        <p>Becario de Sistemas -> Inetum</p>
+        <br>
+
+        <h2>Sitios de Interes</h2>
+        <section class="contact">
+            <a href="https://github.com/frxnchu" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/francisco-molina-aranda/" target="_blank">LinkedIn</a>
+        </section>
     </section>
 
     <section>
@@ -114,7 +131,7 @@
                 <a href="https://frxnchu.github.io/boulevard-web" target="_blank">Ver en GitHub Pages</a>
             </div>
             <div class="card">
-                <h3>Web en WordPress para cliente real</h3>
+                <h3>Web anterior en Produccion</h3>
                 <p>Sitio de producción para el cliente.</p>
                 <a href="https://boulevard-restaurante.com/index/" target="_blank">Ver en producción</a>
             </div>
@@ -132,20 +149,24 @@
         <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><br>HTML</div>
         <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><br>CSS</div>
         <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><br>JavaScript</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode"><br>VS Code</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ"><br>IntelliJ</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCharm"><br>PyCharm</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" alt="DataGrip"><br>DataGrip</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><br>JAVA</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python"><br> PYTHON</div>
         <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><br>MySQL</div>
         <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><br>Git</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><br>GitHub</div>
+        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"><br> LINUX</div>
+        </div>
+        <h2>Herramientas</h2>
+        <div class="tech-icons">
+            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode"><br>VS Code</div>
+            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ"><br>IntelliJ</div>
+            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCharm"><br>PyCharm</div>
+            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" alt="DataGrip"><br>DataGrip</div>
+            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><br>GitHub</div>
         </div>
     </section>
 
     <section class="contact">
         <h2>Contacto</h2>
-        <a href="https://www.linkedin.com/in/francisco-molina-aranda/" target="_blank">LinkedIn</a>
-        <h2>Email</h2>
         <p>franchucode@gmail.com</p>
     </section>
 
