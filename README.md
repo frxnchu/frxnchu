@@ -1,6 +1,6 @@
 # ¡Hola! 👋 Soy Franchu
 
-🎓 Estudiante de 1º de Desarrollo de Aplicaciones Web (DAW)  
+🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)  
 📚 Actualmente cursando el bootcamp **Full Stack Open** de la Universidad de Helsinki  
 🚀 Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real
 
@@ -10,7 +10,7 @@
 
 - 📱 **Carta digital responsive para bar**  
   Desarrollo web completo con HTML y CSS, orientado a móviles y publicado con GitHub Pages.  
-  👉 [Ver proyecto](https://frxnchu.github.io/bar-boulevard) | [Repositorio](https://github.com/frxnchu/bar-boulevard)
+  👉[Web Final](https://boulevard-restaurante.com/index/) | [Ver proyecto](https://frxnchu.github.io/bar-boulevard) | [Repositorio](https://github.com/frxnchu/bar-boulevard)
 
 - 🎉 **Plantilla web para promotora de discotecas**  
   Diseño enfocado al público joven y eventos nocturnos, con estructura reutilizable para nuevos clientes.  
