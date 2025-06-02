@@ -6,14 +6,14 @@
 
 ---
 
-### 💼 Proyectos destacados
+## 💼 Proyectos destacados
 
 - 📱 **Web y Carta digital para bar - restaurante**  
   Desarrollo web completo con HTML y CSS, orientado a móviles y publicado con GitHub Pages.  
-  👉[Web Final](https://boulevard-restaurante.com/index/) | [Ver proyecto](https://frxnchu.github.io/boulevard-web) | [Repositorio](https://github.com/frxnchu/boulevard-web)
+  👉 [Web Final](https://boulevard-restaurante.com/index/) | [Ver proyecto](https://frxnchu.github.io/boulevard-web) | [Repositorio](https://github.com/frxnchu/boulevard-web)
 
 - 🎉 **Plantilla web para promotora de discotecas**  
-  Diseño enfocado al público joven y eventos, con estructura reutilizable para nuevos clientes. Publicado con GitHub Pages  
+  Diseño enfocado al público joven y eventos, con estructura reutilizable para nuevos clientes. Publicado con GitHub Pages.  
   👉 [Ver proyecto](https://frxnchu.github.io/discotecas-template) | [Repositorio](https://github.com/frxnchu/discotecas-template)
 
 - 🌐 **Portfolio personal**  
@@ -22,18 +22,22 @@
 
 ---
 
-### 🛠️ Tecnologías y herramientas
+## 🛠️ Tecnologías y herramientas
+
+### Lenguajes y tecnologías
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
-**Entornos de desarrollo:**
+### Herramientas y entornos
 
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
 ![IntelliJ](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=intellij-idea&logoColor=white)
 ![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
@@ -41,8 +45,9 @@
 
 ---
 
-### 📫 Contacto
+## 📫 Contacto
 
 - [LinkedIn](https://www.linkedin.com/in/francisco-molina-aranda/)
 - [Portfolio](https://frxnchu.github.io/frxnchu/)
 - ✉️ [franchucode@gmail.com](mailto:franchucode@gmail.com)
+
