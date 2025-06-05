@@ -9,166 +9,302 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        
-        .inicio{
-            text-align: center;
-            background-color: rgb(172, 216, 255);
-        }
-        .inicio h1{
-            color: #213e4b;
-        }
-        .inicio h2{
-            color: #213e4b;
-        }
-
         body {
             font-family: 'Inter', sans-serif;
-            background-color: aliceblue;
-            color: #111;
+            background-color: #1a1a2e;
+            color: #eee;
             line-height: 1.6;
             padding: 2rem;
             display: flex;
             flex-direction: column;
             align-items: center;
-            }
-            p{
-                text-align: center;
-            }
-            h1, h2 {
-            color: #111;
-            margin-bottom: 0.5rem;
+        }
+        h1, h2 {
+            color: #c77dff;
             text-align: center;
-            }
-            section {
-            background: rgb(172, 216, 255);
+        }
+        section {
+            background: #2c2c54;
             border-radius: 16px;
             padding: 2rem;
             margin-bottom: 2rem;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            max-width: 900px;
+            box-shadow: 0 0 15px #9d4edd;
+            max-width: 1000px;
             width: 100%;
-            }
-            .projects, .technologies {
+        }
+        .inicio {
+            text-align: center;
+            background-color: #2c2c54;
+        }
+        .inicio h1, .inicio h2 {
+            color: #c77dff;
+        }
+        .projects {
             display: grid;
-            gap: 1.5rem;
-            }
-            .projects {
+            gap: 2rem;
             grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            }
-            .card {
-            border: 1px solid #eee;
+        }
+        .card {
+            background: #1f1f3d;
+            border-radius: 12px;
+            perspective: 1000px;
+        }
+        .card:hover .card-inner {
+            transform: rotateY(180deg);
+        }
+        .card-inner {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+        .card-front, .card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             border-radius: 12px;
             padding: 1rem;
-            background: #fff;
-            transition: box-shadow 0.3s;
-            }
-            .card:hover {
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-            }
-            .card a {
-            color: #2a4be0;
+        }
+        .card-front {
+            background: #1f1f3d;
+            color: #fff;
+        }
+        .card-back {
+            background: #3f3f74;
+            color: #fff;
+            transform: rotateY(180deg);
+        }
+        .card a {
+            color: #9d4edd;
             text-decoration: none;
             font-weight: 600;
-            }
-            .tech-icons {
+            margin-top: 1rem;
+        }
+        .scrolling-tech {
+            overflow: hidden;
+            position: relative;
+            height: 100px;
+        }
+        .scrolling-tech .tech-track {
+            display: flex;
+            gap: 2rem;
+            width: max-content;
+            animation: scrollLoop 30s linear infinite;
+        }
+        .tech-track-inner {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
-            align-items: center;
             justify-content: center;
-            }
-            .tech-icons div {
+            align-items: stretch; /* importante para que todos tengan la misma altura */
+        }
+
+        .tech-track-inner div {
+            width: 96px;
+            height: 96px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             text-align: center;
-            }
-            .tech-icons img {
+            flex-shrink: 0;
+            background: transparent;
+        }
+        .tech-track-inner img {
             width: 48px;
             height: 48px;
-            margin-bottom: 0.25rem;
-            }
-            .contact {
+            object-fit: contain;
+            margin-bottom: 0.5rem;
+        }
+
+        @keyframes scrollLoop {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        .contact {
             text-align: center;
-            }
-            .contact a {
-            background: #2a4be0;
-            color: rgb(255, 255, 255);
+        }
+        .contact a {
+            background: #9d4edd;
+            color: white;
             padding: 0.5rem 1rem;
             border-radius: 10px;
             text-decoration: none;
-            }
-        </style>
-    </head>
-    <body>
+            margin: 0.5rem;
+            display: inline-block;
+        }
+        .rotating {
+            display: inline-block;
+            height: 1.2em;
+            overflow: hidden;
+            vertical-align: bottom;
+        }
+        .rotating span {
+            display: block;
+            animation: animateWords 5s infinite ease-in-out;
+        }
+        @keyframes animateWords {
+            0% { transform: translateY(0%); }
+            20% { transform: translateY(-100%); }
+            40% { transform: translateY(-200%); }
+            60% { transform: translateY(-300%); }
+            80% { transform: translateY(-400%); }
+            100% { transform: translateY(-500%); }
+        }
+    </style>
+</head>
+<body>
+<section class="inicio">
+    <h1>¡Hola! Soy Francisco, <span class="rotating"><span>Desarrollador</span><span>Programador</span><span>Freelancer</span><span>Creativo</span><span>Apasionado</span></span></h1>
+    <p>Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real</p>
+    <br>
+    <h2>Estudios</h2>
+    <p>Estudiante de Desarrollo de Aplicaciones Web (DAW)</p>
+    <p>Actualmente cursando el bootcamp Full Stack Open de la Universidad de Helsinki</p>
+    <p>Grado Medio Sistemas Microinformacticos y Redes</p>
+    <br>
+    <h2>Experiencia</h2>
+    <p>Junior Consultant → Wise Security Global</p>
+    <p>Becario de Sistemas → Inetum</p>
+    <br>
+    <h2>Sitios de Interés</h2>
+    <div class="contact">
+        <a href="https://github.com/frxnchu" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/francisco-molina-aranda/" target="_blank">LinkedIn</a>
+    </div>
+</section>
 
-    <section class="inicio">
-        <h1>¡Hola! Soy Franchu</h1>
-        <p>Estudiante de Desarrollo de Aplicaciones Web</p>
-        <p>Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real</p>
-        <br>
 
-        <h2>Estudios</h2>
-        <p>Estudiante de Desarrollo de Aplicaciones Web (DAW)</p>
-        <p>Actualmente cursando el bootcamp Full Stack Open de la Universidad de Helsinki</p>
-        <br>
-
-        <h2>Experiencia</h2>
-        <p>Junior Consultant -> Wise Security Global</p>
-        <p>Becario de Sistemas -> Inetum</p>
-        <br>
-
-        <h2>Sitios de Interes</h2>
-        <section class="contact">
-            <a href="https://github.com/frxnchu" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/francisco-molina-aranda/" target="_blank">LinkedIn</a>
-        </section>
-    </section>
-
-    <section>
-        <h2>Proyectos</h2>
-        <div class="projects">
-            <div class="card">
-                <h3>Carta digital para bar</h3>
-                <p>Página moderna orientada a móviles (mobile-first).</p>
-                <a href="https://frxnchu.github.io/boulevard-web" target="_blank">Ver en GitHub Pages</a>
-            </div>
-            <div class="card">
-                <h3>Web anterior en Produccion</h3>
-                <p>Sitio de producción para el cliente.</p>
-                <a href="https://boulevard-restaurante.com/index/" target="_blank">Ver en producción</a>
-            </div>
-            <div class="card">
-                <h3>Plantilla para promotora de discotecas</h3>
-                <p>Estructura funcional para eventos y público joven.</p>
-                <a href="https://frxnchu.github.io/discotecas-template" target="_blank">Ver en GitHub Pages</a>
+<section>
+    <h2>Proyectos Finalizados</h2>
+    <div class="projects">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Carta digital para bar</h3>
+                    <p>Web moderna y responsive para un bar local.</p>
+                </div>
+                <div class="card-back">
+                    <p>Página orientada a móviles, responsive y profesional.</p>
+                    <a href="https://frxnchu.github.io/boulevard-web" target="_blank">Ver en GitHub Pages</a>
+                </div>
             </div>
         </div>
-    </section>
-
-    <section>
-        <h2>Tecnologías</h2>
-        <div class="tech-icons">
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><br>HTML</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><br>CSS</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><br>JavaScript</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><br>JAVA</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python"><br> PYTHON</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"><br>MySQL</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><br>Git</div>
-        <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux"><br> LINUX</div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Web anterior en Producción</h3>
+                    <p>Versión productiva de un sitio real.</p>
+                </div>
+                <div class="card-back">
+                    <p>Implementación completa en entorno cliente.</p>
+                    <a href="https://boulevard-restaurante.com/index/" target="_blank">Ver en Producción</a>
+                </div>
+            </div>
         </div>
-        <h2>Herramientas</h2>
-        <div class="tech-icons">
-            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode"><br>VS Code</div>
-            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" alt="IntelliJ"><br>IntelliJ</div>
-            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" alt="PyCharm"><br>PyCharm</div>
-            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg" alt="DataGrip"><br>DataGrip</div>
-            <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><br>GitHub</div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Plantilla para promotora</h3>
+                    <p>Diseño para eventos y fiestas jóvenes.</p>
+                </div>
+                <div class="card-back">
+                    <p>Ideal para discotecas y promotores de eventos.</p>
+                    <a href="https://frxnchu.github.io/discotecas-template" target="_blank">Ver en GitHub Pages</a>
+                </div>
+            </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <section class="contact">
-        <h2>Contacto</h2>
-        <p>franchucode@gmail.com</p>
-    </section>
+<section>
+    <h2>Proyectos en Desarrollo</h2>
+    <div class="projects">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Login con BBDD</h3>
+                    <p>Hecho con HTML, css, Java y MySQL.</p>
+                </div>
+                <div class="card-back">
+                    <p>Proyecto de clase backend en Java.</p>
+                    <a href="#">(En construcción)</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Dungeon crawler Java</h3>
+                    <p>Juego 2D Hecho en las Practicas de 1º DAW.</p>
+                </div>
+                <div class="card-back">
+                    <p>Hecho con libGDX en grupo DAW.</p>
+                    <a href="https://github.com/frxnchu/ShadowOfJade/tree/master/ShadowOfJade" target="_blank">(En desarrollo)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    </body>
+<section>
+    <h2>Tecnologías</h2>
+    <div class="scrolling-tech">
+        <div class="tech-track">
+            <div class="tech-track-inner">
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><br>HTML</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><br>CSS</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><br>JavaScript</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><br>Java</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><br>Python</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><br>MySQL</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><br>Git</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"><br>Linux</div>
+            </div>
+            <div class="tech-track-inner">
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><br>HTML</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><br>CSS</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><br>JavaScript</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><br>Java</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><br>Python</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><br>MySQL</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><br>Git</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"><br>Linux</div>
+            </div>
+        </div>
+    </div>
+    <h2>Herramientas</h2>
+    <div class="scrolling-tech">
+        <div class="tech-track">
+            <div class="tech-track-inner">
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"><br>VS Code</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"><br>IntelliJ</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"><br>PyCharm</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg"><br>DataGrip</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><br>GitHub</div>
+            </div>
+            <div class="tech-track-inner">
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"><br>VS Code</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"><br>IntelliJ</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"><br>PyCharm</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg"><br>DataGrip</div>
+                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><br>GitHub</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>Contacto</h2>
+    <p>franchucode@gmail.com</p>
+</section>
+
+</body>
 </html>
