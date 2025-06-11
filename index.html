@@ -1,313 +1,241 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de Franchu</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: #1a1a2e;
-            color: #eee;
-            line-height: 1.6;
-            padding: 2rem;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        h1, h2 {
-            color: #c77dff;
-            text-align: center;
-        }
-        section {
-            background: #2c2c54;
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 0 15px #9d4edd;
-            max-width: 1000px;
-            width: 100%;
-        }
-        .inicio {
-            text-align: center;
-            background-color: #2c2c54;
-        }
-        .inicio h1, .inicio h2 {
-            color: #c77dff;
-        }
-        .projects {
-            display: grid;
-            gap: 2rem;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        }
-        .card {
-            background: #1f1f3d;
-            border-radius: 12px;
-            perspective: 1000px;
-        }
-        .card:hover .card-inner {
-            transform: rotateY(180deg);
-        }
-        .card-inner {
-            position: relative;
-            width: 100%;
-            height: 200px;
-            text-align: center;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-        }
-        .card-front, .card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border-radius: 12px;
-            padding: 1rem;
-        }
-        .card-front {
-            background: #1f1f3d;
-            color: #fff;
-        }
-        .card-back {
-            background: #3f3f74;
-            color: #fff;
-            transform: rotateY(180deg);
-        }
-        .card a {
-            color: #9d4edd;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 1rem;
-        }
-        .scrolling-tech {
-            overflow: hidden;
-            position: relative;
-            height: 100px;
-        }
-        .scrolling-tech .tech-track {
-            display: flex;
-            gap: 2rem;
-            width: max-content;
-            animation: scrollLoop 30s linear infinite;
-        }
-        .tech-track-inner {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
-            align-items: stretch; /* importante para que todos tengan la misma altura */
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bardoCafé</title>
+  <style>
+    :root {
+      --amarillo: #FFD700;
+      --negro: #111;
+      --gris: #333;
+      --gris-claro: #444;
+      --blanco: #fff;
+    }
 
-        .tech-track-inner div {
-            width: 96px;
-            height: 96px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            flex-shrink: 0;
-            background: transparent;
-        }
-        .tech-track-inner img {
-            width: 48px;
-            height: 48px;
-            object-fit: contain;
-            margin-bottom: 0.5rem;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
 
-        @keyframes scrollLoop {
-            0% { transform: translateX(0%); }
-            100% { transform: translateX(-50%); }
-        }
-        .contact {
-            text-align: center;
-        }
-        .contact a {
-            background: #9d4edd;
-            color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 10px;
-            text-decoration: none;
-            margin: 0.5rem;
-            display: inline-block;
-        }
-        .rotating {
-            display: inline-block;
-            height: 1.2em;
-            overflow: hidden;
-            vertical-align: bottom;
-        }
-        .rotating span {
-            display: block;
-            animation: animateWords 5s infinite ease-in-out;
-        }
-        @keyframes animateWords {
-            0% { transform: translateY(0%); }
-            20% { transform: translateY(-100%); }
-            40% { transform: translateY(-200%); }
-            60% { transform: translateY(-300%); }
-            80% { transform: translateY(-400%); }
-            100% { transform: translateY(-500%); }
-        }
-    </style>
+    body {
+      background-color: var(--negro);
+      color: white;
+    }
+
+    header {
+      background-color: var(--amarillo);
+      color: var(--negro);
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero h2 {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: var(--amarillo);
+      padding: 1rem 2rem;
+      font-size: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h3 {
+      color: var(--amarillo);
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .servicios, .carta {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: var(--gris);
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(255, 255, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h4 {
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+      color: var(--amarillo);
+      border-bottom: 2px solid var(--amarillo);
+      padding-bottom: 0.5rem;
+      text-align: center;
+    }
+
+    .card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .card li {
+      padding: 0.6rem 0;
+      border-bottom: 1px solid var(--gris-claro);
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.1rem;
+    }
+
+    .card li:last-child {
+      border-bottom: none;
+    }
+
+    .contacto, .ubicacion {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .contacto a, .ubicacion a {
+      background-color: var(--amarillo);
+      color: var(--negro);
+      padding: 1rem 2rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    .contacto a:hover, .ubicacion a:hover {
+      background-color: #e6c200;
+    }
+
+    iframe {
+      border: none;
+      width: 100%;
+      height: 350px;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    .redes {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .instagram {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      background-color: var(--amarillo);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .instagram:hover {
+      background-color: #e6c200;
+    }
+
+    .instagram img {
+      width: 30px;
+      height: 30px;
+    }
+
+    footer {
+      background-color: var(--gris);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
 <body>
-<section class="inicio">
-    <h1>¡Hola! Soy Francisco, <span class="rotating"><span>Desarrollador</span><span>Programador</span><span>Freelancer</span><span>Creativo</span><span>Apasionado</span></span></h1>
-    <p>Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real</p>
-    <br>
-    <h2>Estudios</h2>
-    <p>Estudiante de Desarrollo de Aplicaciones Web (DAW)</p>
-    <p>Actualmente cursando el bootcamp Full Stack Open de la Universidad de Helsinki</p>
-    <p>Grado Medio Sistemas Microinformacticos y Redes</p>
-    <br>
-    <h2>Experiencia</h2>
-    <p>Junior Consultant → Wise Security Global</p>
-    <p>Becario de Sistemas → Inetum</p>
-    <br>
-    <h2>Sitios de Interés</h2>
-    <div class="contact">
-        <a href="https://github.com/frxnchu" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/francisco-molina-aranda/" target="_blank">LinkedIn</a>
+  <header>
+    <h1>bardoCafé</h1>
+    <p>Cafetería y pastelería artesanal. Un rincón para leer, charlar o trabajar a gusto.</p>
+  </header>
+
+  <div class="hero">
+    <h2>Tu espacio acogedor en el corazón de la ciudad</h2>
+  </div>
+
+  <section>
+    <h3>¿Qué ofrecemos?</h3>
+    <div class="servicios">
+      <div class="card">☕ Café de especialidad y tés selectos</div>
+      <div class="card">🍰 Repostería artesanal hecha en casa</div>
+      <div class="card">📚 Espacio tranquilo para lectura o estudio</div>
+      <div class="card">💻 Wifi gratuito para trabajar cómodamente</div>
     </div>
-</section>
+  </section>
 
-
-<section>
-    <h2>Proyectos Finalizados</h2>
-    <div class="projects">
-        <div class="card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3>Carta digital para bar</h3>
-                    <p>Web moderna y responsive para un bar local.</p>
-                </div>
-                <div class="card-back">
-                    <p>Página orientada a móviles, responsive y profesional.</p>
-                    <a href="https://frxnchu.github.io/boulevard-web" target="_blank">Ver en GitHub Pages</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3>Plantilla para promotora</h3>
-                    <p>Diseño para eventos y fiestas jóvenes.</p>
-                </div>
-                <div class="card-back">
-                    <p>Ideal para discotecas y promotores de eventos.</p>
-                    <a href="https://frxnchu.github.io/discotecas-template" target="_blank">Ver en GitHub Pages</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3>Estudio De Grabación Profesional</h3>
-                    <p>Diseño para grabacion en un plató.</p>
-                </div>
-                <div class="card-back">
-                    <p>Estudio de Grabación Profesional</p>
-                    <a href="https://frxnchu.github.io/estudio-grabacion/" target="_blank">Ver en GitHub Pages</a>
-                </div>
-            </div>
-        </div>
+  <section>
+    <h3>Nuestra carta</h3>
+    <div class="carta">
+      <div class="card">
+        <h4>Bebidas</h4>
+        <ul>
+          <li><span>Café espresso</span><span>1,50€</span></li>
+          <li><span>Latte o capuccino</span><span>2,00€</span></li>
+          <li><span>Té orgánico</span><span>1,80€</span></li>
+          <li><span>Chocolate caliente</span><span>2,20€</span></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h4>Pastelería</h4>
+        <ul>
+          <li><span>Tarta de zanahoria</span><span>3,00€</span></li>
+          <li><span>Brownie casero</span><span>2,50€</span></li>
+          <li><span>Croissant de mantequilla</span><span>1,80€</span></li>
+          <li><span>Galletas surtidas</span><span>1,50€</span></li>
+        </ul>
+      </div>
     </div>
-</section>
+  </section>
 
+  <section class="ubicacion">
+    <h3>Encuéntranos</h3>
+    <p>📍 Calle Santacasilda 1, Madrid</p>
+    <p>🕗 Lunes a Domingo - 08:00 a 20:00</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d189.8857530915606!2d-3.7137586!3d40.4050392!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227f936e6fb5f%3A0x60845a1799d64107!2sBardo%20Caf%C3%A9!5e0!3m2!1ses!2ses!4v1749649818976!5m2!1ses!2ses" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <a href="tel:+34600000000">Llámanos: +34 600 000 000</a>
+  </section>
 
+  <div class="redes">
+    <a class="instagram" href="https://www.instagram.com/bardocafemadrid/" target="_blank" aria-label="Instagram">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+    </a>
+  </div>
 
-
-<section>
-    <h2>Proyectos en Desarrollo</h2>
-    <div class="projects">
-        <div class="card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3>Login con BBDD</h3>
-                    <p>Hecho con HTML, css, Java y MySQL.</p>
-                </div>
-                <div class="card-back">
-                    <p>Proyecto de clase backend en Java.</p>
-                    <a href="#">(En construcción)</a>
-                </div>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3>Dungeon crawler Java</h3>
-                    <p>Juego 2D Hecho en las Practicas de 1º DAW.</p>
-                </div>
-                <div class="card-back">
-                    <p>Hecho con libGDX en grupo DAW.</p>
-                    <a href="https://github.com/frxnchu/ShadowOfJade/tree/master/ShadowOfJade" target="_blank">(En desarrollo)</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section>
-    <h2>Tecnologías</h2>
-    <div class="scrolling-tech">
-        <div class="tech-track">
-            <div class="tech-track-inner">
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><br>HTML</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><br>CSS</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><br>JavaScript</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><br>Java</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><br>Python</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><br>MySQL</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><br>Git</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"><br>Linux</div>
-            </div>
-            <div class="tech-track-inner">
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"><br>HTML</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"><br>CSS</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"><br>JavaScript</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"><br>Java</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"><br>Python</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"><br>MySQL</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"><br>Git</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"><br>Linux</div>
-            </div>
-        </div>
-    </div>
-    <h2>Herramientas</h2>
-    <div class="scrolling-tech">
-        <div class="tech-track">
-            <div class="tech-track-inner">
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"><br>VS Code</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"><br>IntelliJ</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"><br>PyCharm</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg"><br>DataGrip</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><br>GitHub</div>
-            </div>
-            <div class="tech-track-inner">
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"><br>VS Code</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"><br>IntelliJ</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg"><br>PyCharm</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/datagrip/datagrip-original.svg"><br>DataGrip</div>
-                <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"><br>GitHub</div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="contact">
-    <h2>Contacto</h2>
-    <p>franchucode@gmail.com</p>
-</section>
-
+  <footer>
+    © 2025 bardoCafé. Todos los derechos reservados.
+  </footer>
 </body>
 </html>
