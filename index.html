@@ -124,6 +124,71 @@
             margin-bottom: 0.5rem;
         }
 
+        .projects {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        }
+        .card {
+            background: #1f1f3d;
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h3 {
+            color: #c77dff;
+            margin-bottom: 0.5rem;
+        }
+        .card p, .card ul {
+            color: #eee;
+            font-size: 0.95rem;
+        }
+        .card ul {
+            margin-top: 0.5rem;
+            padding-left: 1.2rem;
+        }
+        .card ul li {
+            margin-bottom: 0.5rem;
+        }
+        .scrolling-tech {
+            overflow: hidden;
+            position: relative;
+            height: 100px;
+        }
+        .scrolling-tech .tech-track {
+            display: flex;
+            gap: 2rem;
+            width: max-content;
+            animation: scrollLoop 30s linear infinite;
+        }
+        .tech-track-inner {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: stretch;
+        }
+        .tech-track-inner div {
+            width: 96px;
+            height: 96px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-shrink: 0;
+            background: transparent;
+        }
+        .tech-track-inner img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+            margin-bottom: 0.5rem;
+        }
+
         @keyframes scrollLoop {
             0% { transform: translateX(0%); }
             100% { transform: translateX(-50%); }
@@ -225,11 +290,23 @@
             <div class="card-inner">
                 <div class="card-front">
                     <h3>Bardo Cafe</h3>
-                    <p>Sitio perfecto para trabajr o charlar con un café.</p>
+                    <p>Sitio perfecto para trabajar o charlar con un café.</p>
                 </div>
                 <div class="card-back">
                     <p>Ciber Cafe</p>
                     <a href="https://frxnchu.github.io/bardo-cafe/" target="_blank">Ver en GitHub Pages</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Rosabella Eventos</h3>
+                    <p>Contrata a personas que te hagan un evento tanto de empresa como personal.</p>
+                </div>
+                <div class="card-back">
+                    <p>Web para contratar a gente que prepare eventos</p>
+                    <a href="https://frxnchu.github.io/EventosWeb/" target="_blank">Ver en GitHub Pages</a>
                 </div>
             </div>
         </div>
@@ -262,6 +339,56 @@
                     <a href="https://github.com/frxnchu/ShadowOfJade/tree/master/ShadowOfJade" target="_blank">(En desarrollo)</a>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>¿Quieres trabajar con mi equipo?</h2>
+    <p style="text-align:center; margin-bottom: 2rem;">Elige el plan que mejor se ajuste a tu proyecto. Hosting y dominio opcionales por solo 15 €/mes.</p>
+    <div class="projects">
+        <div class="card">
+            <h3>Plan Esencial</h3>
+            <ul>
+                <li>Landing page profesional</li>
+                <li>Imagen o banner llamativo</li>
+                <li>Botón de contacto (email/WhatsApp)</li>
+                <li>Diseño responsive</li>
+            </ul>
+            <p><strong>Desde 150 €</strong></p>
+            <p>+ Hosting/Dominio: 15 €/mes (opcional)</p>
+        </div>
+        <div class="card">
+            <h3>Plan Profesional</h3>
+            <ul>
+                <li>Inicio, Servicios, Galería y Contacto</li>
+                <li>Carta digital si aplica</li>
+                <li>SEO básico e integración con redes</li>
+                <li>Diseño responsive y personalizado</li>
+            </ul>
+            <p><strong>Desde 350 €</strong></p>
+            <p>+ Hosting/Dominio: 15 €/mes (opcional)</p>
+        </div>
+        <div class="card">
+            <h3>Plan Premium</h3>
+            <ul>
+                <li>Animaciones y diseño visual impactante</li>
+                <li>Galerías, sliders, integración multimedia</li>
+                <li>Branding completo personalizado</li>
+                <li>Hasta 6 secciones a medida</li>
+            </ul>
+            <p><strong>Desde 700 €</strong></p>
+            <p>+ Hosting/Dominio: 15 €/mes (opcional)</p>
+        </div>
+        <div class="card">
+            <h3>Plan Mantenimiento</h3>
+            <ul>
+                <li>Cambios menores (textos, fotos, enlaces)</li>
+                <li>Revisión mensual</li>
+                <li>Copias de seguridad</li>
+                <li>Soporte técnico continuo</li>
+            </ul>
+            <p><strong>Desde 25 €/mes</strong></p>
         </div>
     </div>
 </section>
