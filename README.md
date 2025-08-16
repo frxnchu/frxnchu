@@ -8,6 +8,10 @@
 
 ## 💼 Proyectos destacados
 
+- 🌐 **Portfolio personal**  
+  Página donde centralizo mis trabajos, tecnologías favoritas y contacto.  
+  👉 [Ver portfolio](https://frxnchu.github.io/frxnchu/) | [Repositorio](https://github.com/frxnchu/frxnchu)
+
 - 📱 **Web y Carta digital para bar - restaurante**  
   Desarrollo web completo con HTML y CSS, orientado a móviles y publicado con GitHub Pages.  
   👉 [Ver proyecto](https://frxnchu.github.io/boulevard-web) | [Repositorio](https://github.com/frxnchu/boulevard-web)
@@ -16,9 +20,6 @@
   Diseño enfocado al público joven y eventos, con estructura reutilizable para nuevos clientes. Publicado con GitHub Pages.  
   👉 [Ver proyecto](https://frxnchu.github.io/discotecas-template) | [Repositorio](https://github.com/frxnchu/discotecas-template)
 
-- 🌐 **Portfolio personal**  
-  Página donde centralizo mis trabajos, tecnologías favoritas y contacto.  
-  👉 [Ver portfolio](https://frxnchu.github.io/frxnchu/) | [Repositorio](https://github.com/frxnchu/frxnchu)
 
 ---
 
