@@ -55,11 +55,12 @@
         .card-inner {
             position: relative;
             width: 100%;
-            height: 200px;
+            min-height: 280px;
             text-align: center;
             transition: transform 0.6s;
             transform-style: preserve-3d;
         }
+
         .card-front, .card-back {
             position: absolute;
             width: 100%;
@@ -76,6 +77,16 @@
             background: #1f1f3d;
             color: #fff;
         }
+        .card-front img {
+            max-width: 100%;
+            max-height: 140px;
+            object-fit: contain;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 10px;
+        }
+
+
         .card-back {
             background: #3f3f74;
             color: #fff;
@@ -232,12 +243,11 @@
     <br>
     <h2>Estudios</h2>
     <p>Estudiante de Desarrollo de Aplicaciones Web (DAW)</p>
-    <p>Actualmente cursando el bootcamp Full Stack Open de la Universidad de Helsinki</p>
-    <p>Grado Medio Sistemas Microinformacticos y Redes</p>
+    <p>Grado Medio Sistemas Microinformacticos y Redes (SMR)</p>
     <br>
     <h2>Experiencia</h2>
-    <p>Junior Consultant → Wise Security Global</p>
-    <p>Becario de Sistemas → Inetum</p>
+    <p>Junior IT Consultant → Wise Security Global (6 meses)</p>
+    <p>Becario de Sistemas → Inetum (3 meses)</p>
     <br>
     <h2>Sitios de Interés</h2>
     <div class="contact">
@@ -245,6 +255,47 @@
         <a href="https://www.linkedin.com/in/francisco-molina-aranda/" target="_blank">LinkedIn</a>
     </div>
 </section>
+
+<section>
+    <h2>Emprendimiento (junto a MichelAngelo)</h2>
+    <p style="text-align:center; margin-bottom: 1.5rem;">
+        Proyectos desarrollados como parte de VirtusCode.
+    </p>
+    <div class="projects">
+
+        <!-- Proyecto 1: VirtusCode -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>Web Oficial de VirtusCode</h3>
+                    <p>Web moderna, responsive y profesional para nuestra agencia.</p>
+                    <img src="virtus.png" alt="Los Nens - VirtusCode" style="max-width: 100%; border-radius: 8px;">
+                </div>
+                <div class="card-back">
+                    <p>Agencia de desarrollo web y soluciones tecnológicas con identidad propia.</p>
+                    <a href="https://virtuscode.es/" target="_blank">Visitar VirtusCode</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Proyecto 2: BetFriend -->
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <h3>BetFriend</h3>
+                    <p>Apuesta ficticia entre amigos, diversión sin riesgos.</p>
+                    <img src="betfriend.png" alt="BetFriend Icono" style="max-width: 110%; border-radius: 8px;">
+                </div>
+                <div class="card-back">
+                    <p>Simula apuestas con amigos en un entorno gamificado y social.</p>
+                    <a href="https://betfriend.virtuscode.es/" target="_blank">Visitar BetFriend</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
 
 
 <section>
@@ -254,11 +305,11 @@
             <div class="card-inner">
                 <div class="card-front">
                     <h3>Carta digital para bar</h3>
-                    <p>Web moderna y responsive para un bar local.</p>
+                    <img src="bar-boulevard.png" style="max-width: 130%;">
                 </div>
                 <div class="card-back">
                     <p>Página orientada a móviles, responsive y profesional.</p>
-                    <a href="https://frxnchu.github.io/boulevard-web" target="_blank">Ver en GitHub Pages</a>
+                    <a href="https://frxnchu.github.io/boulevard-web/index.html" target="_blank">Ir a la Web</a>
                 </div>
             </div>
         </div>
@@ -266,7 +317,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <h3>Plantilla para promotora</h3>
-                    <p>Diseño para eventos y fiestas jóvenes.</p>
+                    <img src="LD.png" style="max-width: 130%;">
                 </div>
                 <div class="card-back">
                     <p>Ideal para discotecas y promotores de eventos.</p>
@@ -278,7 +329,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <h3>Estudio De Grabación Profesional</h3>
-                    <p>Diseño para grabacion en un plató.</p>
+                    <img src="la mina.png" style="max-width: 140%;">
                 </div>
                 <div class="card-back">
                     <p>Estudio de Grabación Profesional</p>
@@ -290,7 +341,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <h3>Bardo Cafe</h3>
-                    <p>Sitio perfecto para trabajar o charlar con un café.</p>
+                    <img src="bardo-cafe.png" style="max-width: 130%;">
                 </div>
                 <div class="card-back">
                     <p>Ciber Cafe</p>
@@ -302,7 +353,7 @@
             <div class="card-inner">
                 <div class="card-front">
                     <h3>Rosabella Eventos</h3>
-                    <p>Contrata a personas que te hagan un evento tanto de empresa como personal.</p>
+                    <img src="rosabella.png" style="max-width: 130%;">
                 </div>
                 <div class="card-back">
                     <p>Web para contratar a gente que prepare eventos</p>
@@ -313,6 +364,7 @@
     </div>
 </section>
 
+<!--
 <section>
     <h2>Proyectos en Desarrollo</h2>
     <div class="projects">
@@ -328,71 +380,9 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-inner">
-                <div class="card-front">
-                    <h3>Dungeon crawler Java</h3>
-                    <p>Juego 2D Hecho en las Practicas de 1º DAW.</p>
-                </div>
-                <div class="card-back">
-                    <p>Hecho con libGDX en grupo DAW.</p>
-                    <a href="https://github.com/frxnchu/ShadowOfJade/tree/master/ShadowOfJade" target="_blank">(En desarrollo)</a>
-                </div>
-            </div>
-        </div>
     </div>
 </section>
-
-<section>
-    <h2>¿Quieres trabajar con mi equipo?</h2>
-    <p style="text-align:center; margin-bottom: 2rem;">Elige el plan que mejor se ajuste a tu proyecto. Hosting y dominio opcionales por solo 15 €/mes.</p>
-    <div class="projects">
-        <div class="card">
-            <h3>Plan Esencial</h3>
-            <ul>
-                <li>Landing page profesional</li>
-                <li>Imagen o banner llamativo</li>
-                <li>Botón de contacto (email/WhatsApp)</li>
-                <li>Diseño responsive</li>
-            </ul>
-            <p><strong>Desde 150 €</strong></p>
-            <p>+ Hosting/Dominio: 15 €/mes (opcional)</p>
-        </div>
-        <div class="card">
-            <h3>Plan Profesional</h3>
-            <ul>
-                <li>Inicio, Servicios, Galería y Contacto</li>
-                <li>Carta digital si aplica</li>
-                <li>SEO básico e integración con redes</li>
-                <li>Diseño responsive y personalizado</li>
-            </ul>
-            <p><strong>Desde 350 €</strong></p>
-            <p>+ Hosting/Dominio: 15 €/mes (opcional)</p>
-        </div>
-        <div class="card">
-            <h3>Plan Premium</h3>
-            <ul>
-                <li>Animaciones y diseño visual impactante</li>
-                <li>Galerías, sliders, integración multimedia</li>
-                <li>Branding completo personalizado</li>
-                <li>Hasta 6 secciones a medida</li>
-            </ul>
-            <p><strong>Desde 700 €</strong></p>
-            <p>+ Hosting/Dominio: 15 €/mes (opcional)</p>
-        </div>
-        <div class="card">
-            <h3>Plan Mantenimiento</h3>
-            <ul>
-                <li>Cambios menores (textos, fotos, enlaces)</li>
-                <li>Revisión mensual</li>
-                <li>Copias de seguridad</li>
-                <li>Soporte técnico continuo</li>
-            </ul>
-            <p><strong>Desde 25 €/mes</strong></p>
-        </div>
-    </div>
-</section>
-
+-->
 <section>
     <h2>Tecnologías</h2>
     <div class="scrolling-tech">
@@ -442,7 +432,7 @@
 
 <section class="contact">
     <h2>Contacto</h2>
-    <p>franchucode@gmail.com</p>
+    <p>franchu.molina.aranda@gmail.com</p>
 </section>
 
 </body>
