@@ -16,10 +16,6 @@
   Desarrollo web completo con HTML y CSS, orientado a móviles y publicado con GitHub Pages.  
   👉 [Ver proyecto](https://frxnchu.github.io/boulevard-web) | [Repositorio](https://github.com/frxnchu/boulevard-web)
 
-- 🎉 **Plantilla web para promotora de discotecas**  
-  Diseño enfocado al público joven y eventos, con estructura reutilizable para nuevos clientes. Publicado con GitHub Pages.  
-  👉 [Ver proyecto](https://frxnchu.github.io/discotecas-template) | [Repositorio](https://github.com/frxnchu/discotecas-template)
-
 
 ---
 
@@ -30,7 +26,6 @@
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
@@ -50,5 +45,5 @@
 
 - [LinkedIn](https://www.linkedin.com/in/francisco-molina-aranda/)
 - [Portfolio](https://frxnchu.github.io/frxnchu/)
-- ✉️ [franchucode@gmail.com](mailto:franchucode@gmail.com)
+- ✉️ [franchu.molina.aranda@gmail.com](mailto:franchu.molina.aranda@gmail.com)
 
