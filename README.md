@@ -1,7 +1,6 @@
 # ¡Hola! 👋 Soy Franchu
 
-🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)  
-📚 Actualmente cursando el bootcamp **Full Stack Open** de la Universidad de Helsinki  
+🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)   
 🚀 Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real
 
 ---
