@@ -44,5 +44,5 @@
 
 - [LinkedIn](https://www.linkedin.com/in/francisco-molina-aranda/)
 - [Portfolio](https://frxnchu.github.io/frxnchu/)
-- ✉️ [franchu.molina.aranda@gmail.com](mailto:franchu.molina.aranda@gmail.com)
+- ✉️ [franchucode@gmail.com](mailto:franchucode@gmail.com)
 
