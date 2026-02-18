@@ -1,8 +1,8 @@
 # Francisco Molina
 
-##🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)
-##🚀 Desarrollador web enfocado en proyectos reales, arquitectura backend y despliegue en producción
-##🔐 Interesado en ciberseguridad, VPS, Docker y automatización
+🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)
+🚀 Desarrollador web enfocado en proyectos reales, arquitectura backend y despliegue en producción
+🔐 Interesado en ciberseguridad, VPS, Docker y automatización
 
 ---
 
