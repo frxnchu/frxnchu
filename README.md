@@ -1,48 +1,103 @@
-# ¡Hola! 👋 Soy Franchu
+# Francisco Molina
 
-🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)   
-🚀 Apasionado por el desarrollo web, la ciberseguridad y los proyectos con enfoque real
-
----
-
-## 💼 Proyectos destacados
-
-- 🌐 **Portfolio personal**  
-  Página donde centralizo mis trabajos, tecnologías favoritas y contacto.  
-  👉 [Ver portfolio](https://frxnchu.github.io/frxnchu/) | [Repositorio](https://github.com/frxnchu/frxnchu)
-
-- 📱 **Web y Carta digital para bar - restaurante**  
-  Desarrollo web completo con HTML y CSS, orientado a móviles y publicado con GitHub Pages.  
-  👉 [Ver proyecto](https://frxnchu.github.io/boulevard-web) | [Repositorio](https://github.com/frxnchu/boulevard-web)
-
+🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)
+🚀 Desarrollador web enfocado en proyectos reales, arquitectura backend y despliegue en producción
+🔐 Interesado en ciberseguridad, VPS, Docker y automatización
 
 ---
 
-## 🛠️ Tecnologías y herramientas
+## 👨‍💻 Sobre mí
 
-### Lenguajes y tecnologías
+Soy desarrollador web en formación con mentalidad profesional.
+Trabajo proyectos reales desde cero: diseño, frontend, backend, base de datos y despliegue en servidor.
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+Me interesa construir productos completos, no solo interfaces.
+Actualmente estoy profundizando en:
 
-### Herramientas y entornos
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![IntelliJ](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=intellij-idea&logoColor=white)
-![PyCharm](https://img.shields.io/badge/PyCharm-000000?style=flat&logo=pycharm&logoColor=white)
-![DataGrip](https://img.shields.io/badge/DataGrip-000000?style=flat&logo=datagrip&logoColor=white)
+* Arquitectura web
+* Sistemas Linux y servidores VPS
+* Docker y contenedores
+* Seguridad en aplicaciones web
+* Automatización y escalabilidad
 
 ---
 
-## 📫 Contacto
+## 🚀 Proyectos Destacados
 
-- [LinkedIn](https://www.linkedin.com/in/francisco-molina-aranda/)
-- [Portfolio](https://frxnchu.github.io/frxnchu/)
-- ✉️ [franchucode@gmail.com](mailto:franchucode@gmail.com)
+### 🌐 Portfolio Personal
 
+Centro de presentación profesional, tecnologías, visión y contacto.
+
+🔗 Demo: [https://frxnchu.github.io/frxnchu/](https://frxnchu.github.io/frxnchu/)
+📂 Repo: [https://github.com/frxnchu/frxnchu](https://github.com/frxnchu/frxnchu)
+
+---
+
+### 🍽️ Web corporativa + Carta Digital (Bar / Restaurante)
+
+Desarrollo completo orientado a móviles.
+Estructura limpia, diseño profesional y despliegue con GitHub Pages.
+
+🔗 Demo: [https://frxnchu.github.io/boulevard-web](https://frxnchu.github.io/boulevard-web)
+📂 Repo: [https://github.com/frxnchu/boulevard-web](https://github.com/frxnchu/boulevard-web)
+
+---
+
+## 🧠 Stack Tecnológico
+
+### 💻 Frontend
+
+* HTML5
+* CSS3 (responsive design, mobile-first)
+* JavaScript
+
+### ⚙️ Backend
+
+* Python
+* Django
+* Autenticación personalizada
+* Sistemas de verificación por email
+
+### 🗄️ Bases de Datos
+
+* MySQL
+* PostgreSQL (aprendiendo para producción)
+* Modelado relacional
+
+### 🐧 Sistemas & DevOps
+
+* Linux (Debian)
+* VPS (Hetzner)
+* Docker & Docker Compose
+* Git & GitHub
+* SSH
+* Despliegues manuales en servidor
+
+---
+
+## 📚 Actualmente Aprendiendo
+
+* Arquitectura limpia en backend
+* Optimización y seguridad en APIs
+* Escalabilidad en proyectos SaaS
+* Buenas prácticas profesionales
+* Construcción de productos propios
+
+---
+
+## 🎯 Objetivo Profesional
+
+Construir productos digitales sólidos y escalables.
+Crear soluciones web profesionales para clientes reales y evolucionar hacia proyectos SaaS propios.
+
+---
+
+## 📬 Contacto
+
+* LinkedIn: [https://www.linkedin.com/in/francisco-molina-aranda/](https://www.linkedin.com/in/francisco-molina-aranda/)
+* Portfolio: [https://frxnchu.github.io/frxnchu/](https://frxnchu.github.io/frxnchu/)
+* Email: [franchucode@gmail.com](mailto:franchucode@gmail.com)
+
+---
+
+Tú decides hacia dónde lo enfocamos.
