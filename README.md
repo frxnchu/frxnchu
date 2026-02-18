@@ -1,8 +1,8 @@
 # Francisco Molina
 
-🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)
-🚀 Desarrollador web enfocado en proyectos reales, arquitectura backend y despliegue en producción
-🔐 Interesado en ciberseguridad, VPS, Docker y automatización
+##🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)
+##🚀 Desarrollador web enfocado en proyectos reales, arquitectura backend y despliegue en producción
+##🔐 Interesado en ciberseguridad, VPS, Docker y automatización
 
 ---
 
@@ -50,6 +50,7 @@ Estructura limpia, diseño profesional y despliegue con GitHub Pages.
 * HTML5
 * CSS3 (responsive design, mobile-first)
 * JavaScript
+* Angular
 
 ### ⚙️ Backend
 
@@ -61,13 +62,13 @@ Estructura limpia, diseño profesional y despliegue con GitHub Pages.
 ### 🗄️ Bases de Datos
 
 * MySQL
-* PostgreSQL (aprendiendo para producción)
+* PostgreSQL
 * Modelado relacional
 
 ### 🐧 Sistemas & DevOps
 
 * Linux (Debian)
-* VPS (Hetzner)
+* VPS
 * Docker & Docker Compose
 * Git & GitHub
 * SSH
@@ -97,7 +98,3 @@ Crear soluciones web profesionales para clientes reales y evolucionar hacia proy
 * LinkedIn: [https://www.linkedin.com/in/francisco-molina-aranda/](https://www.linkedin.com/in/francisco-molina-aranda/)
 * Portfolio: [https://frxnchu.github.io/frxnchu/](https://frxnchu.github.io/frxnchu/)
 * Email: [franchucode@gmail.com](mailto:franchucode@gmail.com)
-
----
-
-Tú decides hacia dónde lo enfocamos.
