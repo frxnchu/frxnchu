@@ -1,100 +1,34 @@
-# Francisco Molina
+# 🛡️ Francisco Molina | Ethical Hacking Trainee & Fullstack Developer
 
-🎓 Estudiante de Desarrollo de Aplicaciones Web (DAW)
-🚀 Desarrollador web enfocado en proyectos reales, arquitectura backend y despliegue en producción
-🔐 Interesado en ciberseguridad, VPS, Docker y automatización
+¡Hola! Soy Francisco. Mi enfoque combina la construcción de aplicaciones robustas con la mentalidad ofensiva de la ciberseguridad. Vengo del mundo del desarrollo web (DAW) y actualmente me especializo en Ethical Hacking, aplicando mis conocimientos en arquitectura para encontrar y mitigar vulnerabilidades.
 
 ---
 
-## 👨‍💻 Sobre mí
+## ⚡ Sobre mí
 
-Soy desarrollador web en formación con mentalidad profesional.
-Trabajo proyectos reales desde cero: diseño, frontend, backend, base de datos y despliegue en servidor.
-
-Me interesa construir productos completos, no solo interfaces.
-Actualmente estoy profundizando en:
-
-* Arquitectura web
-* Sistemas Linux y servidores VPS
-* Docker y contenedores
-* Seguridad en aplicaciones web
-* Automatización y escalabilidad
-
----
-
-## 🚀 Proyectos Destacados
-
-### 🌐 Portfolio Personal
-
-Centro de presentación profesional, tecnologías, visión y contacto.
-
-🔗 Demo: [https://frxnchu.github.io/frxnchu/](https://frxnchu.github.io/frxnchu/)
-📂 Repo: [https://github.com/frxnchu/frxnchu](https://github.com/frxnchu/frxnchu)
-
----
-
-### 🍽️ Web corporativa + Carta Digital (Bar / Restaurante)
-
-Desarrollo completo orientado a móviles.
-Estructura limpia, diseño profesional y despliegue con GitHub Pages.
-
-🔗 Demo: [https://frxnchu.github.io/boulevard-web](https://frxnchu.github.io/boulevard-web)
-📂 Repo: [https://github.com/frxnchu/boulevard-web](https://github.com/frxnchu/boulevard-web)
+- 🎓 Estudiante de Ciberseguridad (en transición desde Desarrollo de Aplicaciones Web)
+- 🚀 **Ethical Hacking Trainee**: análisis de vulnerabilidades, auditoría de aplicaciones y seguridad ofensiva
+- 👨‍💻 **Fullstack Developer**: creación de productos completos, desde el diseño hasta el despliegue en producción
+- 🐧 **Linux Power User**: gestión de servidores VPS, hardening y automatización
+- 📌 **Objetivo actual**: encontrar mi primera oportunidad como pentester o auditor de seguridad
 
 ---
 
 ## 🧠 Stack Tecnológico
 
-### 💻 Frontend
-
-* HTML5
-* CSS3 (responsive design, mobile-first)
-* JavaScript
-* Angular
-
-### ⚙️ Backend
-
-* Python
-* Django
-* Autenticación personalizada
-* Sistemas de verificación por email
-
-### 🗄️ Bases de Datos
-
-* MySQL
-* PostgreSQL
-* Modelado relacional
-
-### 🐧 Sistemas & DevOps
-
-* Linux (Debian)
-* VPS
-* Docker & Docker Compose
-* Git & GitHub
-* SSH
-* Despliegues manuales en servidor
+| Área               | Tecnologías                                 |
+|--------------------|---------------------------------------------|
+| Ciberseguridad     | Pentesting Web, Pentesting en APIs, Pentesting Android e IOS. Hardening de Servidores (fail2ban, UFW, SSH con ed25519 |
+| Backend            | Python (Django), PHP, Node.js               |
+| Frontend           | Angular, JavaScript (ES6+), HTML5, CSS3 (Mobile-first) |
+| Sistemas & DevOps  | Linux (Debian/Ubuntu), Docker & Docker Compose, VPS, Git/GitHub |
+| Bases de Datos     | PostgreSQL, MySQL, Modelado Relacional      |
 
 ---
 
-## 📚 Actualmente Aprendiendo
 
-* Arquitectura limpia en backend
-* Optimización y seguridad en APIs
-* Escalabilidad en proyectos SaaS
-* Buenas prácticas profesionales
-* Construcción de productos propios
+## 📫 Contacto
 
----
-
-## 🎯 Objetivo Profesional
-
-Construir productos digitales sólidos y escalables.
-Crear soluciones web profesionales para clientes reales y evolucionar hacia proyectos SaaS propios.
-
----
-
-## 📬 Contacto
-
-* LinkedIn: [https://www.linkedin.com/in/francisco-molina-aranda/](https://www.linkedin.com/in/francisco-molina-aranda/)
-* Portfolio: [https://frxnchu.github.io/frxnchu/](https://frxnchu.github.io/frxnchu/)
-* Email: [franchucode@gmail.com](mailto:franchucode@gmail.com)
+- GitHub: [github.com/franciscomolina](https://github.com/franciscomolina) *(cambia por tu usuario real)*
+- LinkedIn: [linkedin.com/in/franciscomolina](https://linkedin.com/in/franciscomolina)
+- Email: francisco@ejemplo.com
