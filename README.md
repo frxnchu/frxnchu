@@ -21,7 +21,7 @@ $ neofetch --stack
 
 | Área               | Tecnologías                                 |
 |--------------------|---------------------------------------------|
-| Ciberseguridad     | Pentesting Web, Pentesting en APIs, Pentesting Android e IOS. Hardening de Servidores (fail2ban, UFW, SSH con ed25519 |
+| Ciberseguridad     | Pentesting Web, Pentesting en APIs, Pentesting Android e IOS. Hardening de Servidores (fail2ban, UFW, SSH con ed25519) |
 | Backend            | Python (Django), PHP, Node.js               |
 | Frontend           | Angular, JavaScript (ES6+), HTML5, CSS3 (Mobile-first) |
 | Sistemas & DevOps  | Linux (Debian/Ubuntu), Docker & Docker Compose, VPS, Git/GitHub |
