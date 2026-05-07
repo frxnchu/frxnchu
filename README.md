@@ -10,7 +10,7 @@
 - 🚀 **Ethical Hacking Trainee**: análisis de vulnerabilidades, auditoría de aplicaciones y seguridad ofensiva
 - 👨‍💻 **Fullstack Developer**: creación de productos completos, desde el diseño hasta el despliegue en producción
 - 🐧 **Linux Power User**: gestión de servidores VPS, hardening y automatización
-- 📌 **Objetivo actual**: encontrar mi primera oportunidad como pentester o auditor de seguridad
+- 📌 **Objetivo actual**: desarrollar aplicaciones sencillas pero útiles, y compartir el proceso en TikTok e Instagram para aprender en comunidad
 
 ---
 
@@ -27,8 +27,10 @@
 ---
 
 
+
 ## 📫 Contacto
 
 - GitHub: [github.com/franciscomolina](https://github.com/franciscomolina) *(cambia por tu usuario real)*
 - LinkedIn: [linkedin.com/in/franciscomolina](https://linkedin.com/in/franciscomolina)
 - Email: francisco@ejemplo.com
+- TikTok / Instagram: @fraanchumolina_ 
