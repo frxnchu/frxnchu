@@ -11,6 +11,7 @@ $ whoami
 - 🚀 **Ethical Hacking Trainee**: análisis de vulnerabilidades, auditoría de aplicaciones y seguridad ofensiva
 - 👨‍💻 **Fullstack Developer**: creación de productos completos, desde el diseño hasta el despliegue en producción
 - 🐧 **Linux Power User**: gestión de servidores VPS, hardening y automatización
+- 🤝 **Mi empresilla en [CofounderX Agency](https://agency.cofounderx.es/)**: desarrollo web profesional, hosting propio y soluciones para negocio
 
 $ cat objetivos.txt
 - 📌 **Objetivo actual**: desarrollar aplicaciones sencillas pero útiles, y compartir el proceso en TikTok e Instagram para aprender en comunidad
@@ -33,8 +34,8 @@ $ grep -i contacto /dev/null
 
 ## 📫 Contacto
 
-- GitHub: [github.com/franciscomolina](https://github.com/franciscomolina) *(cambia por tu usuario real)*
-- LinkedIn: [linkedin.com/in/franciscomolina](https://linkedin.com/in/franciscomolina)
+- GitHub: [github.com/frxnchu](https://github.com/frxnchu)
+- LinkedIn: [linkedin.com/in/francisco-molina-aranda](https://www.linkedin.com/in/francisco-molina-aranda/)
 - Email: francisco@ejemplo.com
 - TikTok / Instagram: @fraanchumolina_ 
 
